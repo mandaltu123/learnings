@@ -1,0 +1,11 @@
+Transport Layer Security (TLS) and its predecessor, Secure Sockets Layer (SSL), are technologies which allow web
+browsers and web servers to communicate over a secured connection. This means that the data being sent is encrypted
+by one side, transmitted, then decrypted by the other side before processing. This is a two-way process, meaning that
+both the server AND the browser encrypt all traffic before sending out data.
+
+Another important aspect of the SSL/TLS protocol is Authentication. This means that during your initial attempt to
+communicate with a web server over a secure connection, that server will present your web browser with a set of
+credentials, in the form of a "Certificate", as proof the site is who and what it claims to be. In certain cases,
+the server may also request a Certificate from your web browser, asking for proof that you are who you claim to be.
+This is known as "Client Authentication," although in practice this is used more for business-to-business (B2B)
+ transactions than with individual users. Most SSL-enabled web servers do not request Client Authentication.
