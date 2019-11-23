@@ -12,6 +12,9 @@ class Book():
     def __len__(self):
         return self.pages
 
+    def __del__(self):
+        print("A book object has just been deleted")
+
 
 b = Book('Python', 'Tuhin', 250)
 print(b)  # without the __str__ method print(b) => <__main__.Book object at 0x7f50fd5f3290>
@@ -21,3 +24,5 @@ length_of_book = len(b)
 print(length_of_book)  # we will get TypeError: object of type 'Book' has no len()
 # Now that we have implemented __len__ method that's why we are going to get output / length of the book
 # as 250
+del(b)
+print(b)
