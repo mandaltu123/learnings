@@ -29,3 +29,18 @@ print(f"Matrix dimension is {matrix.shape} and matrix size is {matrix.size}")
 _tensor = np.ones((3, 3, 3,))
 print(_tensor)
 print(f"Tensor dimension: {_tensor.shape} and the size of the tensor is {_tensor.size}")
+
+# Indexing
+A = np.ones((5, 5), dtype=np.int)
+print(A)
+# Indexing starts at 0
+A[0, 1] = 2
+print(f"adding 2 at 0,1 index \n {A}")
+
+# for higher dimensions let's add an index
+A = np.ones((5, 5, 5,), dtype=int)
+print(f"The tensor is \n {A}")
+# assigning the first row a new value
+
+A[:, 0, 0] = 6
+print(f"adding 6 at 0,0,0 index of every column, now the tesnor  is \n {A}")
