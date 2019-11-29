@@ -20,12 +20,6 @@ class LinkedList(object):
     def __init__(self):
         self.head = None
 
-    def print_list(self):
-        temp = self.head
-        while (temp):
-            print(temp.data)
-            temp = temp.next
-
 
 # code execution starts here
 if __name__ == "__main__":
@@ -38,4 +32,4 @@ if __name__ == "__main__":
 
     llist.head.next = secondNode
     secondNode.next = thirdNode
-    llist.print_list()
+    print(llist)
