@@ -44,6 +44,20 @@ class LinkedList(object):
         # changing the last pointer's next node to point to the newly inserted node
         last_node.next = new_node
 
+    def insert_after_item(self, x, data):
+        """This method inserts an element after given element"""
+        current_node = self.head
+        while current_node is not None:
+            if current_node.data == x:
+                break
+            current_node = current_node.next
+        if current_node is None:
+            print("Item not in the list...")
+        else:
+            new_node = Node(data)
+            new_node.next = current_node.next
+            current_node.next = new_node
+
     def print_list(self):
         tmp = self.head
         while tmp:
@@ -51,15 +65,13 @@ class LinkedList(object):
             tmp = tmp.next
 
 
-# main execution will start from here
-
-if __name__ == "__main__":
+def test_isert_at_start_or_end():
+    global first, second, third, llist1
     llist = LinkedList()
     # create a linked list with 3 nodes
     first = Node(1)
     second = Node(2)
     third = Node(3)
-
     llist.head = first
     first.next = second
     second.next = third
@@ -73,3 +85,27 @@ if __name__ == "__main__":
     llist.insert_at_end(10)
     print("linked list after adding node 10 at the end")
     llist.print_list()
+    # test inserting node after given item
+    llist1 = LinkedList()
+
+
+def test_insert_after_given_item():
+    global first, second, third
+    first = Node(1)
+    second = Node(2)
+    third = Node(3)
+    llist1.head = first
+    first.next = second
+    second.next = third
+    print("list before insertion \n")
+    llist1.print_list()
+    llist1.insert_after_item(2, 99)
+    print("list after insertion ")
+    llist1.print_list()
+
+
+# main execution will start from here
+if __name__ == "__main__":
+    test_isert_at_start_or_end()
+    # create a linked list with 3 nodes
+    test_insert_after_given_item()
