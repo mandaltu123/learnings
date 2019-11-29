@@ -28,9 +28,25 @@ class LinkedList(object):
         new_node.next = self.head
         self.head = new_node
 
+    def insert_at_end(self, data):
+        """This method inserts a new node at the end of the linked list"""
+        # create a new node
+        new_node = Node(data)
+
+        # iterate over the current list
+        # find the last node
+        # then add the item at the end
+        last_node = self.head
+
+        while last_node.next:
+            last_node = last_node.next
+
+        # changing the last pointer's next node to point to the newly inserted node
+        last_node.next = new_node
+
     def print_list(self):
         tmp = self.head
-        while (tmp):
+        while tmp:
             print(tmp.data)
             tmp = tmp.next
 
@@ -52,4 +68,8 @@ if __name__ == "__main__":
     # add 5 as new node at the beginning of the list
     llist.insert_at_the_beginning(5)
     print("new list after adding 5 at the beginning ")
+    llist.print_list()
+    # add a new node at the end which is 10
+    llist.insert_at_end(10)
+    print("linked list after adding node 10 at the end")
     llist.print_list()
