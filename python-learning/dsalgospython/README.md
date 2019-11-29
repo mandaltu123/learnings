@@ -25,3 +25,10 @@ Sorting algorithms
     quick sort
     merge sort 
     
+--------------------------------------------------------------------------
+        ADT                         |           Datastructure       
+--------------------------------------------------------------------------
+        stack                       |       array, linked list
+        queue                       |       array, linked list
+        prority queue               |       heap
+        dictionary/hash,map         |       array
