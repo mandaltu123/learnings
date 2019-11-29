@@ -19,3 +19,10 @@ i = 0
 while i < len(cars):
     print(cars[i])
     i += 1
+
+print(cars[0:2])
+print(cars[:])
+print(cars[:-1]) # print all items but the last one
+
+
+
