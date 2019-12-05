@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d54fb05-4473-495e-bdc8-e59f9d25f091" name="Default Changelist" comment="added more">
-      <change afterPath="$PROJECT_DIR$/mathsforpython/some_matrix_operations.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flaskapp/app.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flaskapp/data.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flaskapp/templates/about.html" afterDir="false" />
@@ -14,9 +13,9 @@
       <change afterPath="$PROJECT_DIR$/../flaskapp/templates/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java-practice/learnings" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-practice/learnings" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathsforpython/vector_matrix_tensors.py" beforeDir="false" afterPath="$PROJECT_DIR$/mathsforpython/vector_matrix_tensors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../commandlines/new_file.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../commandlines/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsalgospython/linked_lists/linked_list_insertion_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dsalgospython/linked_lists/linked_list_insertion_operation.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dsalgospython" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -195,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574939016917</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="matrix transpose and tensors">
+      <created>1574940996743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574940996743</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +223,7 @@
     <MESSAGE value="added more" />
     <MESSAGE value="added more python stuff and sample unit tests" />
     <MESSAGE value="some more learnings. started learning math packages for base of ML" />
-    <option name="LAST_COMMIT_MESSAGE" value="some more learnings. started learning math packages for base of ML" />
+    <MESSAGE value="matrix transpose and tensors" />
+    <option name="LAST_COMMIT_MESSAGE" value="matrix transpose and tensors" />
   </component>
 </project>
