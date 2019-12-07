@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bdce670-f342-4276-8a13-164652f39a16" name="Default Changelist" comment="" />
+    <list default="true" id="5bdce670-f342-4276-8a13-164652f39a16" name="Default Changelist" comment="remove node modules" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1UW2h7GLPgiIVQ8a3axkvc0yvLa" />
   <component name="ProjectViewState">
@@ -15,7 +25,9 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="ServiceViewManager">
@@ -41,6 +53,36 @@
       <option name="presentableId" value="Default" />
       <updated>1575458146228</updated>
     </task>
+    <task id="LOCAL-00001" summary="adding gitignore">
+      <created>1575569544777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575569544777</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding gitignore" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="150" width="854" height="814" key="CommitChangelistDialog2" timestamp="1575569571566">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="555" y="150" width="854" height="814" key="CommitChangelistDialog2/54.27.1866.1053/1920.0.1920.1080@54.27.1866.1053" timestamp="1575569571566" />
+    <state x="582" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1575569580620">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="582" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/54.27.1866.1053/1920.0.1920.1080@54.27.1866.1053" timestamp="1575569580620" />
+    <state x="652" y="347" width="659" height="420" key="git4idea.merge.GitPullDialog" timestamp="1575569595077">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="652" y="347" width="659" height="420" key="git4idea.merge.GitPullDialog/54.27.1866.1053/1920.0.1920.1080@54.27.1866.1053" timestamp="1575569595077" />
+    <state x="664" y="450" width="635" height="214" key="git4idea.ui.GitResetDialog" timestamp="1575569637082">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="664" y="450" width="635" height="214" key="git4idea.ui.GitResetDialog/54.27.1866.1053/1920.0.1920.1080@54.27.1866.1053" timestamp="1575569637082" />
   </component>
 </project>
