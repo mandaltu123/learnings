@@ -59,7 +59,41 @@ class LinkedList(object):
         previous.next = temp.next
         temp = None
 
-    def printlist(self):
+    def delete_at_a_given_position(self, position):
+
+        # if linked list is empty then just return, nothing to be done really
+        if self.head is None:
+            return
+
+        # store the head in a temporary variable
+        temp = self.head
+
+        # if head needs to be removed
+        if position == 0:
+            self.head = temp.next
+            temp = None
+            return
+
+        # find previous node of the node to be deleted
+        for i in range(position - 1):
+            temp = temp.next
+            if temp is None:
+                break
+
+        # If position is more than the number of nodes
+        if temp is None:
+            return
+        if temp.next is None:
+            return
+
+        # Node temp.next is the node to be deleted
+        # Store the next pointer to next of the node to be deleted
+        next_node = temp.next.next
+        # de link the node from the linked list
+        temp.next = None
+        temp.next = next_node
+
+    def print_list(self):
         temp = self.head
         while temp is not None:
             print(temp.data, end=" ")
@@ -81,8 +115,27 @@ if __name__ == '__main__':
     third.next = fourth
 
     print("Node before deleting 3")
-    list.printlist()
+    list.print_list()
     print("\n")
     list.delete_node_for_a_given_key(3)
     print("Node after deleting 3")
-    list.printlist()
+    list.print_list()
+    print("---------------------delete by position -----------------")
+    list = LinkedList()
+
+    first = Node(1)
+    second = Node(2)
+    third = Node(3)
+    fourth = Node(4)
+
+    list.head = first
+    first.next = second
+    second.next = third
+    third.next = fourth
+
+    print("Node before deleting 3")
+    list.print_list()
+    print("\n")
+    list.delete_at_a_given_position(2)
+    print("list after deleting at position 2")
+    list.print_list()
